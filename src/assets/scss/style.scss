@@ -55,6 +55,7 @@
     border-radius: 17px 3px 3px 3px;
     padding-left: 10px;
     padding-right: 3px;
+    cursor: ne-resize;
   }
 }
 
@@ -62,6 +63,7 @@ header {
   border-bottom: 1px solid $gray-200;
   width: 100%;
   position: relative;
+  margin-bottom: 70px;
 
   .navbar {
     height: 80px;
