@@ -33,7 +33,7 @@ export default function Hero(props) {
             isPrimary
             onClick={showMostPicked}
           >
-            Show Me
+            Show Me Now
           </Button>
           <div className="row" style={{ marginTop: 80 }}>
             <div className="col-auto" style={{ marginRight: 35 }}>

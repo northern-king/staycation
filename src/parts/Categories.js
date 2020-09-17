@@ -4,7 +4,7 @@ import Button from "elements/Button";
 export default function Categories({ data }) {
   return data.map((category, index1) => {
     return (
-      <section className="container" key={`category-$(index1)`}>
+      <section className="container" key={`category-${index1}`}>
         <h4 className="mb-3 font-weight-medium">{category.name}</h4>
         <div className="container-grid">
           {category.items.length === 0 ? (
