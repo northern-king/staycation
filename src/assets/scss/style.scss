@@ -125,7 +125,7 @@ section {
     transition: 0.3s;
     &:hover {
       box-shadow: none;
-      border: 1px solid $gray-400;
+      box-shadow: 0 9px 29px 7px rgba($pink, 0.2);
       margin-top: 3px;
     }
   }
